@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Neromaps",
+    "slug": "Neromaps",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo nm.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDqQ67fwT6EEAjCt3zfnEEZQ-f1VPRSZdk"
+        }
+      },
+      "package": "com.Nero.Neromaps"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
